@@ -1,7 +1,12 @@
-(function(){
+$("#removeDiv").click(function () {
+	$( "#remove" ).remove();
+});
 
-    // Todo
+$("#setColor").click(function () {
+	$( "#changeColor" ).addClass("red");
+});
 
-})();
-
-
+$( "#setText" ).keyup(function() {
+    var value = $( this ).val();
+    $( "#needText" ).text( value );
+});

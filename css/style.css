@@ -44,3 +44,6 @@ body {
   border:none;
   border-bottom: 1px solid #86aaff;
 }
+.red {
+  background-color: red;
+}
